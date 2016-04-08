@@ -33,16 +33,19 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
 	<!-- end: CSS -->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    // <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
 	<!-- Add fancyBox -->
-	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-	// <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+
 
 </head>
 <body>
@@ -315,7 +318,7 @@
 				<div class="span4 portfolio-item website html5 css3 responsive">
 					<div class="picture">
 						<div class="youtube">
-							<a href="https://www.youtube.com/v/nHFsNQz6BhM?enablejsapi=1&amp;theme=light&amp;showinfo=0&amp;vq=hd720&amp;border=0&amp;autoplay=1" target="_blank" class="popupbox-video fancybox.iframe">
+							<a href="https://www.youtube.com/v/nHFsNQz6BhM?enablejsapi=1" target="_blank" class="popupbox-video fancybox.iframe">
 								<img src="img/portfolio/redbox.png" alt=""/><div class="image-overlay-link"></div>
 							</a>
 						</div>
@@ -435,7 +438,7 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/isotope.js"></script>
 <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -452,14 +455,11 @@
 <script type="text/javascript" src="js/jquery.flot.pie.min.js"></script>
 <script type="text/javascript" src="js/jquery.flot.stack.js"></script>
 <script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
+<!-- 	// <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script> -->
 
 <script defer="defer" src="js/custom.js"></script>
 
-<script type="text/javascript">
-	jQuery(document).ready(function(){
-		jQuery('a.popupbox-video').fancybox();
-	});
-</script>
+
 
 <script type="text/javascript">	
 	$(function() {
@@ -527,6 +527,12 @@
 
 		Page.init();
 	
+	});
+</script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('a.popupbox-video').fancybox();
 	});
 </script>
 <!-- end: Java Script -->
