@@ -36,13 +36,16 @@
 
 	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 
+	<link rel="stylesheet" type="text/css" href="YouTubePopUp.css">
+	
+
 	<!-- end: CSS -->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
     <!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
 	<!-- Add fancyBox -->
 
@@ -392,6 +395,11 @@
 				<div class="span6">
 	
 					<p>
+					<h3>YouTube</h3>
+<p>
+	<a class="bla-1" href="https://www.youtube.com/watch?v=CuH3tJPiP-U">This YouTube video with autoplay</a> and
+	<a class="bla-2" href="https://www.youtube.com/watch?v=CuH3tJPiP-U">This YouTube video without autoplay</a>
+</p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 					</p>	
           			
@@ -445,7 +453,7 @@
 <script type="text/javascript" src="js/flexslider.js"></script>
 <script type="text/javascript" src="js/carousel.js"></script>
 <script type="text/javascript" src="js/fancybox.js"></script>
-<script type="text/javascript" src="js/twitter.js"></script>
+<!-- <script type="text/javascript" src="js/twitter.js"></script> -->
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
@@ -459,7 +467,13 @@
 
 <script defer="defer" src="js/custom.js"></script>
 
-
+	<script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
+	<script type="text/javascript">
+		jQuery(function(){
+			jQuery("a.bla-1").YouTubePopUp();
+			jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+		});
+	</script>
 
 <script type="text/javascript">	
 	$(function() {

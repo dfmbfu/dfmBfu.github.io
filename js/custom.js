@@ -209,7 +209,6 @@ jQuery(document).ready(function($){
 		})();
 		
 			
-});
 
 /* ------------------ Tooltips ----------------- */
 
