@@ -663,13 +663,13 @@ header {
 	cursor: pointer;
 }
 
-.image-overlay-link {
+/*.image-overlay-link {
 	background-image: url(../img/overlay-icon-01.png);
-}
+}*/
 
-.image-overlay-link {
+/*.image-overlay-link {
 	background-image: url(../img/overlay-icon-02.png);
-}
+}*/
 
 
 .flex-video {
@@ -2576,6 +2576,22 @@ footer #social {
 		margin: 5px 0 25px 0 !important;
 	}
 	
+}
+
+
+
+.youtube a:after {
+	width: 64px;
+	height: 64px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: url("../img/player_play.png") no-repeat;
+	content: " ";
+	opacity: 0.8;
+	margin-top:  -32px;
+	margin-left: -32px;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers)
