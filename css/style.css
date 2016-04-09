@@ -103,14 +103,14 @@
 
 
 body {
-	font-family: 'Economica';
+	font-family: 'Droid Sans';
 	background: #fff;
 	color: #888888;
 	font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Economica" !important;
+	font-family: "Droid Sans" !important;
 	font-weight: normal !important;
 	margin: 0;
 	padding: 0;
@@ -513,7 +513,7 @@ header {
 
 #page-title h2 {
 	display: inline-block;
-	font-family: "Economica" !important;
+	font-family: "Droid Sans" !important;
 	color: #fff;
 	font-size: 36px;
 	text-align: center;
@@ -2578,7 +2578,9 @@ footer #social {
 	
 }
 
-
+h3 {
+	font-family: "Economica" !important;
+}
 
 .youtube a:after {
 	width: 64px;
